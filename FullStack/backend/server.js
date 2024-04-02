@@ -34,9 +34,14 @@ app.get('/jokes', (req, res) => {
             id: 5,
             title: 'A fish joke',
             joke: 'What do you call a fish wearing a crown? A king fish.'
-        }
+        },
+        {
+            id: 6,
+            title: 'A pizza joke',
+            joke: 'Why did the pizza go to the party? Because it was a little slice of heaven.'
+        },
     ];
-    
+
     res.send(jokes);
 });
 
