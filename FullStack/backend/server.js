@@ -1,6 +1,10 @@
 import express from 'express';
-
+// const cors = require('cors');
 const app = express();
+
+// app.use(cors({
+//     origin: 'http://localhost:5173' // Allow requests from this origin only
+// }));
 
 
 app.get('/', (req, res) => {
