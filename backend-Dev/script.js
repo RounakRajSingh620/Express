@@ -1,3 +1,4 @@
+/*
 // fundamentals of javascript
 // variables, data types, operators, functions, conditionals, loops, arrays, objects, classes, modules
 // foreach, filter,map,find,indexof
@@ -36,3 +37,11 @@ console.log(found);
 var index = arr.indexOf(5);
 console.log(index);
 
+*/
+
+// Intoduction to express js
+// express js ek web application framework hai jo npm package hai node.js ka
+// express js is a framework to build web applications on top of node.js with a flow
+// express js manage everything from sending requests  and giving responses to handling routes and rendering views
+//jjaab bhi server request bhejta hai toh waha se route ke beech me pauchte hi aur uss request ko handle karte hai matlab kch perform krte hhai toh uss element ko mdddlleware kehte hai
+// middleware ek function hai jo request aur response object ko modify karne ke liye use hota hai
