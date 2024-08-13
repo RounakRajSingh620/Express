@@ -45,3 +45,14 @@ console.log(index);
 // express js manage everything from sending requests  and giving responses to handling routes and rendering views
 //jjaab bhi server request bhejta hai toh waha se route ke beech me pauchte hi aur uss request ko handle karte hai matlab kch perform krte hhai toh uss element ko mdddlleware kehte hai
 // middleware ek function hai jo request aur response object ko modify karne ke liye use hota hai
+
+
+// form handling and working with it
+// In this handle the backend process of forms and making sure that the data is coming from frontend, libraries, frameworks,template engine and the databaseand handling the data
+// session cookie 
+// we can store any data in frontend  or browser  and when we request something in backend then the data automatically saved in frontend send to the backend    
+
+
+// mini project
+// setting up the express server and parser for form
+// setting up ejs for ejs views - install ejs from npm / setup ejs as middleware for a view engine 
