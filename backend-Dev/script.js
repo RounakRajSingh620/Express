@@ -56,3 +56,5 @@ console.log(index);
 // mini project
 // setting up the express server and parser for form
 // setting up ejs for ejs views - install ejs from npm / setup ejs as middleware for a view engine 
+// setting up the static public files - css, js, images
+// Dynamic routing and rendering views

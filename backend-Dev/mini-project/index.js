@@ -10,6 +10,10 @@ app.set('view engine', 'ejs');
 app.get('/', function (req, res) {
     res.render("index");
 });
+app.get('/profile/:username', function (req, res) {
+    // res.send(req.params.username);
+    res.send(`Welcome ${req.params.username}`);
+});
 
 app.listen(3000, function () {
     console.log('Server is running on port 3000');
